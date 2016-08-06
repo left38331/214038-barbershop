@@ -8,21 +8,21 @@
        <header>
           <div class="container"> 
               <nav class="main-navigation"> 
-                  <ul>
-                      <li>
-                          <a href="#">Информация</a>
+                  <ul class="nav-list">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Информация</a>
                       </li>
-                      <li>
-                          <a href="#">Новости</a>
+                      <li class="nav-item">
+                          <a  class="nav-link" href="#">Новости</a>
                       </li>
-                      <li>
-                          <a href="#">Прайс-лист</a>
+                      <li  class="nav-item">
+                          <a class="nav-link" href="#">Прайс-лист</a>
                       </li>
-                      <li>
-                          <a href="#">Магазин</a>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Магазин</a>
                       </li>
-                      <li>
-                          <a href="#">Контакты</a>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Контакты</a>
                       </li>
                   </ul>
               </nav>
@@ -33,31 +33,44 @@
       </header>
       <main class="container">
           <div class="title">
-              <h1>Набор для путешествий «baxter of california»</h1>
+              <h1>Набор для путешествий «Baxter of California»</h1>
               <div class="breadcrumbs">
                   <ul>
-                      <li>Главная</li>
-                      <li>Магазин</li>
-                      <li>Средства ухода</li>
+                      <li><a class="breadcrumbs-link" href="#"> Главная</a></li>
+                      <li><a class="breadcrumbs-link" href="#"> Магазин</a></li>
+                      <li><a class="breadcrumbs-link" href="#"> Средства ухода</a></li>
                       <li>Набор для путешествий «baxter of california»</li>
                   </ul>
               </div>
           </div>
-          <div class="holder">
+          <div class="wrapper">
               <section class="picture">
-                  <img src="http://placehold.it/150x100">
-                  <img src="http://placehold.it/150x100">
-                  <img src="http://placehold.it/150x100">
-                  <img src="http://placehold.it/150x100">
+                  <figure class="picture_big">
+                      <img src="http://placehold.it/350x200">
+                  </figure>
+                  <figure class="picture_small">
+                      <ul>
+                          <li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+                          <li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+                          <li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+                      </ul>
+                  </figure>
               </section>
               <section class="article">
-                  <p>Есть в наличие</p>
-                  <span>Артикул: dexer-ae</span><br>
+                  <section class="article-list">
+                      <div class="article-item">Есть в наличие
+                      </div>
+                      <div class="article-item">Артикул: dexer-ae
+                      </div>
+                  </section>
                   <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-                  <form action="">
-                      <p>«2 900РУБ. </p>
-                      <button class="btn" type="submit" >Купить</button>
-                  </form> 
+                  <div class="price">
+                      <div class="price-item">2 900руб.
+                      </div>
+                      <div class="price-item">
+                            <a htef="#">Купить</a>                        
+                      </div>
+                  </div> 
               </section>
               <section class="desc">
                   <h2>В набор входят</h2>
