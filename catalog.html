@@ -6,26 +6,26 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-      <header>
-          <div class="container"> 
-              <div class="index-logo">
-                  <img src="img/Logo.svg" width="111" height="24" alt="Логотип ">
-              </div>
+      <header class="main-header">
+          <div class="container clearfix">  
               <nav class="main-navigation"> 
-                  <ul>
-                      <li>
+                  <div class="index-logo">
+                      <a href="#"><img src="img/logo.svg" width="111" height="24" alt="Логотип "></a>
+                  </div>
+                  <ul class="nav-list">
+                      <li class="nav-item">
                           <a href="#">Информация</a>
                       </li>
-                      <li>
+                      <li class="nav-item">
                           <a href="#">Новости</a>
                       </li>
-                      <li>
+                      <li class="nav-item">
                           <a href="#">Прайс-лист</a>
                       </li>
-                      <li>
+                      <li class="nav-item">
                           <a href="#">Магазин</a>
                       </li>
-                      <li>
+                      <li class="nav-item">
                           <a href="#">Контакты</a>
                       </li>
                   </ul>
@@ -35,14 +35,14 @@
               </div>
           </div>
       </header>
-      <main class="container">
+      <main class="container clearfix">
           <div class="title">
               <h2>Средства для ухода</h2>
               <div class="breadcrumbs">
-                  <ul>
-                      <li>Главная</li>
-                      <li>Магазин</li>
-                      <li>Средства ухода</li>
+                  <ul class="breadcrumbs-list">
+                      <a href="#"><li class="breadcrumbs-item">Главная</li></a>
+                      <a href="#"><li class="breadcrumbs-item">Магазин</li></a>
+                      <li class="breadcrumbs-item">Средства ухода</li>
                   </ul>
               </div>
           </div>
@@ -189,10 +189,10 @@
                       </div>                   
               </section>
           </div>
-          <div class="pagination">
+          <div class="pagination ">
               <ul class="pagination_list">
                   <li class="pagination_item"><a href="">1</a></li>
-                  <li class="pagination_item_active">2</li>
+                  <li class="pagination_item active">2</li>
                   <li class="pagination_item"><a href="">3</a></li>
                   <li class="pagination_item"><a href="">4</a></li>
               </ul>
@@ -200,7 +200,7 @@
     
       </main>
       <footer class="main-footer">
-          <div class="container">
+          <div class="container clearfix">
               <section class="footer-contacts">
                   Барбершоп «Бородинский»<br>
                   Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>

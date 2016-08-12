@@ -6,6 +6,7 @@ body {
     font-family: "PTSans NarrowBold", sans-serif;
 }
 
+
 h2 {
     font-size: 30px;
     line-height: 42px;
@@ -14,4 +15,143 @@ h2 {
 h3 {
     font-size: 24px;
     line-height: 30px;
+}
+
+.main-header {
+ margin-bottom: 60px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 72px;
+    background-color: red;
+}
+
+.user-block {
+  float: right;
+  width: 140px; 
+  min-height: 72px;
+     background-color: blueviolet;
+}
+
+main {
+        background-color: azure;
+}
+
+.title {
+        background-color: green;
+    min-height: 65px;
+    margin-bottom: 60px;
+}
+
+.filter {
+        background-color: yellow;
+    float:left;
+    width: 220px;
+    margin-right: 20px;
+}
+.catalog-list {
+        background-color: red;
+    float: right;
+    width: 700px;
+    margin-bottom: 45px;
+    
+}
+
+.pagination {
+    clear: both;
+        background-color:darkred;
+}
+
+.main-footer {
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+    background-color:plum;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+    background-color:greenyellow;
+}
+
+.footer-social {
+  float: left;
+  width: 180px; 
+     background-color:greenyellow;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+    background-color:greenyellow;
+}
+
+.main-navigation {
+    font-size: 0;
+}
+
+.index-logo,.nav-item {
+        display: inline-block;
+    font-size: 14px;
+    
+}
+
+.breadcrumbs {
+    font-size: 0;
+}
+
+.breadcrumbs-item {
+    
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.catalog_item {
+    display: inline-block;
+    width: 220px;
+    min-height: 290px;
+   margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.catalog_item:nth-child(3n) {
+      margin-right: 0;
+}
+
+.catalog-list {
+    font-size: 0;
+}
+
+
+.pagination {
+   font-size: 0; 
+}
+
+.pagination_item {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.index-logo {
+    width: 110px;
+    height: 25px;
 }
