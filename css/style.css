@@ -19,6 +19,7 @@ h3 {
 
 .main-header {
  margin-bottom: 60px;
+    background-color: khaki;
 }
 
 .clearfix::after {
@@ -154,4 +155,32 @@ main {
 .index-logo {
     width: 110px;
     height: 25px;
+}
+
+.picture {
+   
+    background-color: teal;
+    float: left;
+    width: 460px;
+   
+    margin-right: 90px;
+    font-size: 0;
+}
+
+.picture_big {
+    margin:0;
+   
+}
+
+.discript {
+    background-color: purple;
+    float: right;
+    width: 390px;
+    
+}
+
+.small-item {
+    margin-left: -40px;
+    display: inline-block;
+    font-size: 14px;
 }
